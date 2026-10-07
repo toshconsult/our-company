@@ -290,7 +290,7 @@ const page = () => {
 
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#fff7df] text-orange-500">
                 <img
-                  src="/vector.png"
+                  src="/images/vector.png"
                   alt=""
                   className="h-7 w-7 object-contain"
                 />
