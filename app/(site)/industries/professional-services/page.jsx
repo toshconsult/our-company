@@ -37,16 +37,16 @@ const page = () => {
 
       {/* ================= ABOUT / INTRO SECTION ================= */}
       <section className="px-[15%] py-[30px] max-md:px-[6%]">
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] items-center justify-center gap-10 max-md:grid-flow-row-dense">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] items-center justify-center gap-20 max-md:grid-flow-row-dense">
 
           <div>
-            <h3 className="mb-[20px] text-[40px] max-md:text-[30px] font-bold tracking-wide text-black">
+            <h3 className="mb-[25px] text-[35px] max-md:text-[30px] font-bold tracking-wide text-black">
               Award Winning <br />
               Restaurant Website <br />
               Designer
             </h3>
 
-            <p className="mb-6 text-[18px] leading-[1.6] tracking-wide text-gray-700">
+            <p className="mb-7 text-[16px] leading-[1.6] tracking-wide text-gray-500">
               We Help Medium To Large Restaurant Owners Boost Their
               <br />
               Online Sales Through The Help Of Technologies. Is Your
@@ -57,7 +57,7 @@ const page = () => {
             </p>
 
             <button
-              className="w-full cursor-pointer rounded-[6px] bg-orange-400 py-[10px] text-[25px] font-normal tracking-wide text-white transition hover:bg-orange-500"
+              className="w-[470px] cursor-pointer rounded-[6px] bg-orange-400 py-[10px] text-[22px] font-normal tracking-wide text-white transition hover:bg-orange-500"
             >
               Book A Free Consultation ↗
             </button>
@@ -67,84 +67,78 @@ const page = () => {
             <Image
               src={realImage1}
               alt="Restaurant Website"
-              className="h-[450px] w-full object-cover"
+              className="h-[430px] w-full object-cover"
             />
           </div>
 
         </div>
       </section>
+      <section className="w-full overflow-hidden bg-[#fffbea] py-6 mt-8">
+        <div className="flex w-max animate-scroll items-center gap-16 ">
 
+          <img
+            src="/images/Matmos logo.png"
+            alt="MATMOS"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-      {/* ================= CLIENT LOGOS ================= */}
-        <section className="w-full overflow-hidden bg-[#fffbea] py-8">
-  <div className="flex w-max animate-scroll items-center gap-16">
+          <img
+            src="/images/ALPHABILLS STRAIGHT.png"
+            alt="AlphaBills"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/Matmos logo.png"
-      alt="MATMOS"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/adalo.png"
+            alt="Tismabiz"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/ALPHABILLS STRAIGHT.png"
-      alt="AlphaBills"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/airrand.png"
+            alt="AirRand"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/adalo.png"
-      alt="Tismabiz"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/paytonaira.png"
+            alt="Paytonaira"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/airrand.png"
-      alt="AirRand"
-      className="h-10 w-auto object-contain sm:h-14"
-    />
+          {/* Duplicate logos for seamless scrolling */}
+          <img
+            src="/images/Matmos logo.png"
+            alt="MATMOS"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/paytonaira.png"
-      alt="Paytonaira"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/ALPHABILLS STRAIGHT.png"
+            alt="AlphaBills"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    {/* Duplicate logos for seamless scrolling */}
-    <img
-      src="/images/Matmos logo.png"
-      alt="MATMOS"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/adalo.png"
+            alt="Tismabiz"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/ALPHABILLS STRAIGHT.png"
-      alt="AlphaBills"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/airrand.png"
+            alt="AirRand"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/adalo.png"
-      alt="Tismabiz"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
+          <img
+            src="/images/paytonaira.png"
+            alt="Paytonaira"
+            className="h-6 w-auto object-contain sm:h-8"
+          />
 
-    <img
-      src="/images/airrand.png"
-      alt="AirRand"
-      className="h-10 w-auto object-contain sm:h-14"
-    />
-
-    <img
-      src="/images/paytonaira.png"
-      alt="Paytonaira"
-      className="h-10 w-auto object-contain sm:h-12"
-    />
-
-  </div>
-</section>
-
-
-      {/* ================= PORTFOLIO ================= */}
+        </div>
+      </section>
       <section className="bg-white px-[14%] max-md:px-[6%] py-20">
         <div className="mx-auto max-w-7xl">
 
@@ -157,7 +151,7 @@ const page = () => {
               Here’s Some Of Our Work
             </h2>
 
-            <p className="mt-5 text-[18px] leading-6 text-gray-500">
+            <p className="mt-5 text-[16px] leading-6 text-gray-500">
               We Are Committed To Delivering Exceptional Service And Quality
               Products In Website Design, Web Development, App Development, And
               All Aspects Of Software Development, While Also Providing
@@ -250,9 +244,6 @@ const page = () => {
           </div>
         </div>
       </section>
-
-
-      {/* ================= SERVICES ================= */}
       <section className="w-full bg-[#fff9e8] py-20">
         <div className="mx-auto max-w-7xl px-6">
 
@@ -272,14 +263,8 @@ const page = () => {
               your audience would love to consume.
             </p>
           </div>
-
-
-          {/* Services Grid */}
           <div className="mt-14 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
-
-            {/* Service 1 */}
             <div className="flex min-h-[290px] flex-col items-center rounded-xl bg-white px-8 py-5 text-center shadow-sm">
-
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#fff7df] text-orange-500">
                 <img
                   src="/vector.png"
@@ -287,27 +272,20 @@ const page = () => {
                   className="h-7 w-7 object-contain"
                 />
               </div>
-
               <h3 className="mt-6 text-base font-semibold text-black">
                 WEB DESIGN & DEVELOPMENT
               </h3>
-
               <p className="mt-3 max-w-xs text-sm leading-5 text-gray-500">
                 From custom designs to robust restaurant solutions, we have the
                 expertise to deliver a website that will set you apart from the
                 competition.
               </p>
-
               <button
                 className="mt-auto w-[145px] cursor-pointer rounded-xl border border-fuchsia-500 py-2.5 text-sm font-medium text-fuchsia-500 transition hover:bg-fuchsia-500 hover:text-white"
               >
                 Learn More
               </button>
-
             </div>
-
-
-            {/* Service 2 */}
             <div className="flex min-h-[290px] flex-col items-center rounded-xl bg-white px-8 py-5 text-center shadow-sm">
 
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#fff7df] text-orange-500">
@@ -333,11 +311,7 @@ const page = () => {
               >
                 Learn More
               </button>
-
             </div>
-
-
-            {/* Service 3 */}
             <div className="flex min-h-[290px] flex-col items-center rounded-xl bg-white px-8 py-5 text-center shadow-sm">
 
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#fff7df] text-orange-500">
@@ -380,9 +354,6 @@ const page = () => {
 
         </div>
       </section>
-
-
-      {/* ================= TECHNOLOGIES ================= */}
       <section className="w-full bg-white py-16">
         <div className="mx-auto max-w-6xl px-6">
 
@@ -583,9 +554,6 @@ const page = () => {
                 adaptability and quality excellent.
               </p>
             </div>
-
-
-            {/* Mission Image */}
             <div className="order-1 w-full lg:order-2">
               <img
                 src="/images/Rectangle.png"
@@ -595,12 +563,7 @@ const page = () => {
             </div>
 
           </div>
-
-
-          {/* Vision */}
           <div className="mt-20 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] items-center gap-x-20 gap-y-10">
-
-            {/* Vision Image */}
             <div className="order-1 w-full">
               <img
                 src="/images/vision.png"
@@ -608,9 +571,6 @@ const page = () => {
                 className="h-[340px] w-full rounded-[28px] object-cover"
               />
             </div>
-
-
-            {/* Vision Text */}
             <div className="order-2 max-w-xl">
               <span className="text-base font-medium text-orange-500">
                 Vision
@@ -634,9 +594,6 @@ const page = () => {
 
         </div>
       </section>
-
-
-      {/* ================= TESTIMONIALS ================= */}
       <section className="w-full bg-[#fff9e8] py-16">
         <div className="mx-auto max-w-6xl px-6">
 
@@ -650,12 +607,7 @@ const page = () => {
               aenean accumsan bibendum gravida maecenas augue.
             </p>
           </div>
-
-
-          {/* Testimonials */}
           <div className="mt-16 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
-
-            {/* Testimonial 1 */}
             <div className="min-h-[200px] rounded-xl bg-white px-10 py-8">
 
               <div className="flex items-center">
@@ -676,9 +628,6 @@ const page = () => {
               </p>
 
             </div>
-
-
-            {/* Testimonial 2 */}
             <div className="min-h-[200px] rounded-xl bg-white px-10 py-8">
 
               <div className="flex items-center">
@@ -697,13 +646,8 @@ const page = () => {
                 “Our restaurant sales got skyrocket after Toshconsult
                 restructure our existing software and gave us a targeted ads.”
               </p>
-
             </div>
-
           </div>
-
-
-          {/* Bottom */}
           <div className="mt-12 flex items-center justify-between">
 
             <div className="flex flex-1 justify-center gap-1">
@@ -711,7 +655,6 @@ const page = () => {
               <span className="h-2 w-2 rounded-full bg-orange-100"></span>
               <span className="h-2 w-2 rounded-full bg-orange-100"></span>
             </div>
-
             <a
               href="#reviews"
               className="cursor-pointer text-sm font-medium text-fuchsia-500 underline underline-offset-2"
@@ -720,12 +663,8 @@ const page = () => {
             </a>
 
           </div>
-
         </div>
       </section>
-
-
-      {/* ================= CONSULTATION CTA ================= */}
       <section className="w-full bg-white py-16">
         <div className="mx-auto max-w-5xl px-6">
 
@@ -755,12 +694,9 @@ const page = () => {
                 </span>
               </button>
             </div>
-
           </div>
-
         </div>
       </section>
-
     </div>
   )
 }
