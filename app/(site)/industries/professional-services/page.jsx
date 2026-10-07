@@ -57,7 +57,7 @@ const page = () => {
             </p>
 
             <button
-              className="w-[470px] cursor-pointer rounded-[6px] bg-orange-400 py-[10px] text-[22px] font-normal tracking-wide text-white transition hover:bg-orange-500"
+              className="md:w-[470px] max-md:w-full cursor-pointer rounded-[6px] bg-orange-400 py-[10px] text-[22px] font-normal tracking-wide text-white transition hover:bg-orange-500"
             >
               Book A Free Consultation ↗
             </button>
