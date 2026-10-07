@@ -8,40 +8,31 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "When Is The Class Taking Place",
+      question: "What types of businesses do you work with?",
       answer:
-        "The class takes place according to the scheduled timetable. Please check your class schedule for the exact date and time.",
+        "We work with startups, growing businesses, established companies, and organizations that need technology to improve their operations, serve their customers, or launch new digital products.",
     },
     {
-      question: "How Can I Join The Class",
+      question: "How do you make sure the software you build delivers real business value?",
       answer:
-        "You can join the class by logging into your student account and selecting the class from your dashboard.",
+        "We start by understanding your business goals, users, workflows, and challenges. From there, we define the right solution and prioritize the features that can create the most value for your business. Our focus is on building practical software that supports your objectives—not technology for technology's sake.",
     },
     {
-      question: "Where Can I Find My Class Schedule",
+      question: "Do you build custom software or use existing tools?",
       answer:
-        "Your class schedule can be found in your student dashboard or through the timetable provided by the school.",
+        "Both. We evaluate your requirements, budget, timeline, and existing systems before recommending an approach. Where proven tools or third-party services can solve a problem effectively, we use them. When your business requires something more specific, we build a custom solution around your workflows.",  
     },
     {
-      question: "How Do I Register For A Course",
+      question: "How long does a typical software project take?",
       answer:
-        "To register for a course, select the course you want and follow the registration instructions provided.",
+        "Project timelines depend on the scope, complexity, and requirements. A focused website or smaller digital solution may take a few weeks, while larger custom software, web applications, or mobile products can take several months. After understanding your requirements, we'll provide a realistic timeline for your project.",
     },
     {
-      question: "Can I Change My Course",
+      question: "How do we get started with Toshconsult?",
       answer:
-        "Yes. You can request to change your course by contacting the school administration or support team.",
+        "Simply book a discovery call or contact our team and tell us about your business, idea, or challenge. We'll discuss your requirements, identify the best approach, and recommend the next steps for turning your idea into a practical digital solution.",
     },
-    {
-      question: "How Can I Contact My Instructor",
-      answer:
-        "You can contact your instructor through the contact information provided on your course or student dashboard.",
-    },
-    {
-      question: "Where Can I Get More Information",
-      answer:
-        "For more information, please contact our support team and we will be happy to assist you.",
-    },
+   
   ];
 
   const toggleFAQ = (index) => {
