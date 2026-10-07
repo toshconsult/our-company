@@ -52,6 +52,17 @@ select:focus-visible {
   outline-offset: 2px;
 }
 
+.backgroundI {
+  background-image: url('/images/Line ART.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  min-height: 50vh; 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @keyframes scroll {
   from {

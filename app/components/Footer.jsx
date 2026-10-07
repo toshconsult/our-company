@@ -23,7 +23,7 @@ const socialAnimation = {
 const socialLinks = [
   { name: "Instagram", href: SOCIAL_LINKS.instagram, icon: "/images/instagram.png" },
   { name: "Twitter", href: SOCIAL_LINKS.twitter, icon: "/images/twitter.png" },
-  { name: "LinkedIn", href: SOCIAL_LINKS.linkedin, icon: "/images/linkedin.png" },
+  { name: "LinkedIn", href: SOCIAL_LINKS.linkedin,icon: "/images/linkedin.png" },
   { name: "Facebook", href: SOCIAL_LINKS.facebook, icon: "/images/facebook.png" },
 ];
 
